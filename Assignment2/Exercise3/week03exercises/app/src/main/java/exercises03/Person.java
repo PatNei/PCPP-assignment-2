@@ -5,7 +5,6 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class Person {
-    //private static final Object nextLock = new Object();
     private static long nextID = 0;
 
     private final long id;
